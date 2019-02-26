@@ -1,0 +1,2 @@
+ 
+echo "Hostname for the server"&&hostname&&echo "OS for the server"&&cat /etc/os-release&&echo "Date and time" &&date&&echo "Disk Usage"&&df -h&&echo "Memory usage"&&free -h&&echo "CPU info"&&cat /proc/cpuinfo&&echo "Message Logs" && dmesg|tail && echo "Secure logs" && cat /var/log/auth.log|grep Failed|tail &&echo "Open Common ports"&&netstat -tulpnv&&echo "IPTables rules"&&iptables -L &&echo "Syn Packets"&&sudo /usr/sbin/tcpdump -Nnn -i any -s0 'tcp[13] & 2 != 0'
