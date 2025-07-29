@@ -1,7 +1,6 @@
-# System Diagnostics to Markdown
+# System Diagnostics C&P
 
-This one-liner shell command gathers key system diagnostics and security audit data, then saves it into a well-formatted Markdown file (`system_report.md`) for easy documentation or sharing—perfect for admins maintaining server records in GitHub repos.
-
+This one-liner shell command gathers key system diagnostics and security audit data, for easy documentation or sharing—perfect for admins maintaining server records.
 ---
 
 ## What It Captures
